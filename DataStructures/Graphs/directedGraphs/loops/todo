@@ -1,0 +1,6 @@
+1. Detect largest loop in a directed graph
+2. Detect all nodes that are part of loop
+3. Detect all nodes acessible from every node in a directed graph.
+
+
+** Do find a way to solve all problems of Graphs if nodes are removed or added dynamically.
