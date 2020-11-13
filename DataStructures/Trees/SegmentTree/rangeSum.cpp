@@ -85,10 +85,10 @@ public:
 
 int main()
 {
-    vector<int>a = {1,3,5};
+    vector<int>a = {1,3,5,4,5,2,7,4,9,10,7,23,54,12,7,3,65};
     NumArray* obj = new NumArray(a);
-    int param_2 = obj->sumRange(0,2);
-    obj->update(1,2);
+    int param_2 = obj->sumRange(0,7);
+    obj->update(1,43);
     cout<<param_2;
-    cout<<'\n'<<obj->sumRange(0,2);
+    cout<<'\n'<<obj->sumRange(0,8);
 }
